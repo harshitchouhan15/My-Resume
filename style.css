@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0!important;
+}
+:root{
+    --primary-text-color:  rgb(255,255,255);
+    
+}
+h1{
+    color: var(--primary-text-color);
+    font-size: 3rem;
+    font-weight: 800;
+  
+}
+h2{
+    color: var(--primary-text-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h3{
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+body{
+    font-family: sans-serif;
+    color: var(--primary-text-color);
+    background-color: #222;
+ 
+}
+.flex{
+    display: flex;
+}
+.container{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+    background-color: #222;
+   background-position: center;
+   background-blend-mode: soft-light;
+}
+.main-nav{
+  justify-content: space-between;
+  padding-top: 30px;
+    margin-inline: 32px;
+
+}
+.main-nav ul{
+    display: flex;
+    font-weight: 600;
+    gap: 40px;
+    font-size: 14px;
+    align-items: center;
+    flex-basis: 720px;
+}
+.logo img{
+    width: 200px;
+}
+.logo h1{
+    color: red;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+}
+.secondary-button{
+    color: white;
+    background-color: black;
+    padding: 8px 22px;
+    border-radius: 6px;
+    border: 2px solid white;
+    display: flex;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+}
+.primary-button{
+    background-color: red;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: white;
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: rgb(234, 13, 13);
+}
+
+.main-head{
+   padding-block: 180px;
+   
+    color: rgb(255,255,255);
+}
+.head{
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+.star{
+    
+    justify-content: center;
+}
+input{
+    width: 25%;
+    background-color: black;
+    padding: 20px;
+  
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border: 0.3px solid wheat;
+    border-radius: 4px;
+   
+}
+.transparent{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    ;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-color: #222;
+}
+.login-button{
+    padding: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.2s ease-out;
+}
+.login-button:hover{
+    background-color: rgb(234, 13, 13);
+}
+.first-section{
+    background-color: black;
+    margin-top: 8px;
+}
+.section-container{
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    overflow: hidden;
+    margin-inline: auto;
+    padding-block: 70px;
+    
+}
+.picture{
+    min-width: 50%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+gap: 18px;
+}
+
+.FAQS{
+    background-color: black;
+    margin-top: 8px;
+    padding-block: 80px;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.answer{
+    
+    max-height: 0;
+    overflow: hidden;
+}
+.active{
+    max-height: max-content;
+    margin-top: 10px;
+}
+.footer-container{
+    max-width: 1200px;
+    overflow: hidden;
+   margin-inline: auto;
+   
+}
+.footer-container h1{
+    text-align: center;
+}
+.footer-container li{
+    padding: 25px;
+    background-color: #222;
+    margin-block: 10px;
+    transition: 0.2s;
+  
+  
+}
+
+.footer-container ul{
+    margin-block: 25px;
+}
+.footer-container li:hover{
+    background-color: rgb(70, 68, 68);
+    cursor: pointer;
+}
+.footer-container h3{
+    text-align: center;
+    margin-block: 30px;
+}
+.footer-container form{
+    text-align: center;
+   
+}
+.footer-container input{
+   width: 32%;
+   
+}
+.subfooter{
+    background-color: black;
+   margin-top: 8px;
+}
+.subfooter-container{
+    max-width: 1200px;
+    overflow: hidden;
+    margin-inline: auto;
+    padding-block: 70px;
+}
+.foot{
+   justify-content: space-between;
+   margin-block: 30px;
+   padding-right: 220px;
+   font-size: 14px;
+  
+}
+.btn{
+    color: white;
+    background-color: black;
+    padding: 8px 22px;
+    border-radius: 6px;
+    border: 2px solid white;
+    
+}
+.foot a{
+    color: var(--primary-text-color);
+    text-decoration: underline;
+    
+    
+}
+.subfooter-container li{
+    padding: 8px;
+}
+
+@media screen and (max-width: 1180px){
+    #special-container{
+        padding-inline: 32px;
+        gap: 20px;
+    }
+    .picture img{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 960px){
+    h1{
+        color: var(--primary-text-color);
+        font-size: 2rem;
+        font-weight: 700;
+      
+    }
+    h2{
+        color: var(--primary-text-color);
+        font-size: 1.2rem;
+        font-weight: 400;
+      
+    }
+    h3{
+        color: var(--primary-text-color);
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .section-container{
+        flex-direction: column-reverse;
+
+    }
+   #special-container{
+    flex-direction: column;
+   }
+   .main-head{
+    padding-block: 100px;
+    
+     color: rgb(255,255,255);
+ }
+ input{
+    width: 45%;
+ }
+ .main-nav{
+    justify-content: space-between;
+    padding-top: 30px;
+      margin-inline: 32px;
+  padding-bottom: 15px;
+  }
+  .title{
+    text-align: center;
+  }
+  .footer-container h3{
+font-size: 1.2rem;
+  }
+  .footer-container input{
+    width: 60%;
+    
+ }
+ .subfooter-container{
+    max-width: 1200px;
+    overflow: hidden;
+    margin-inline: auto;
+    padding-block: 40px;
+}
+.logo h1{
+    color: red;
+    font-size: 24px;
+}
+}
+@media screen and (max-width: 600px){
+    input{
+        width: 90%;
+    }
+   .star{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .main-head{
+        padding-block: 50px;
+        
+         color: rgb(255,255,255);
+     }
+    .footer-container input{
+        width: 100%;
+     }
+     .foot{
+        flex-direction: column;
+     }
+     .main-nav ul{
+        display: flex;
+        font-weight: 600;
+        gap: 10px;
+        font-size: 14px;
+       
+    }
+    strong{
+        display: none;
+    }
+}
+
+
